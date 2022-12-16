@@ -1,0 +1,15 @@
+{
+  "extensions": [
+    "ts",
+    "tsx"
+  ],
+  "spec": [
+    "./**/*.spec.*"
+  ],
+  "node-option": [
+    "experimental-specifier-resolution=node",
+    "loader=ts-node/esm"
+  ],
+  "reporter": "allure-mocha",
+  "reporter-option": "configFile=reporterConfig.json"
+}

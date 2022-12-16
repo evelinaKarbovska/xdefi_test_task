@@ -1,0 +1,25 @@
+{
+  "name": "xdefi_test_task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tests": "npx mocha --no-timeouts './tests/mainpage.spec.ts'",
+    "generateReport": "allure generate --clean  && allure open"
+  },
+  "keywords": [],
+  "author": "Evelina",
+  "license": "ISC",
+  "dependencies": {
+    "@types/mocha": "^10.0.1",
+    "@types/node": "18.11.13",
+    "@types/selenium-webdriver": "^4.1.9",
+    "allure-mocha": "^2.0.0-beta.20",
+    "chai": "^4.3.7",
+    "chromedriver": "103.0.0",
+    "mocha": "10.1.0",
+    "selenium-webdriver": "^4.7.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.3"
+  }
+}
