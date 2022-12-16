@@ -1,4 +1,4 @@
-###Set up: 
+### Set up: 
 1.  Install Node.js (>= 16)
 
 2. Run `npm i` in project directory terminal
